@@ -1,0 +1,43 @@
+body{background:#EAE8CA url(http://www.maujor.com/temas/51/bg-geral.jpg) bottom repeat-x;font:11px Arial, Helvetica, sans-serif;color:#564C45; }
+*{border:none; font-size:100%; list-style-type:none; margin:0;padding:0;}
+ a{color:#223381;text-decoration:underline;}
+ a:hover{text-decoration:none;}
+
+#tudo{position:relative;width:850px;margin:0 auto;overflow:hidden;background:url(http://www.maujor.com/temas/51/bg.jpg) no-repeat;}
+#tudo #csswebdesign{position:relative;width:100%;height:455px;}
+#tudo #csswebdesign h1{margin:0 22px;width:211px;height:147px;overflow:hidden;text-indent:-9999px;background:url(http://www.maujor.com/temas/51/logo.jpg);}
+#tudo #csswebdesign h2{width:185px;height:20px;position:absolute;bottom:30px;left:290px;background:url(http://www.maujor.com/temas/51/h1.gif);overflow:hidden;text-indent:-999px;}
+#tudo #csswebdesign h3{width:280px;height:20px;position:absolute;bottom:10px;left:290px;background:url(http://www.maujor.com/temas/51/h2.gif);overflow:hidden;text-indent:-999px;}
+#tudo #navMenu{position:absolute;top:50px;left:240px;width:550px;}
+#tudo #navMenu ul {width:550px;height:40px;}
+#tudo #navMenu ul li{display:block;float:left;padding:10px;margin-right:30px;}
+#tudo #navMenu ul li a{display:block;font-size:16px;font-weight:bold;color:#412D2D;}
+#tudo #regras{width:230px;float:left;display:inline;margin:20px 10px 0;}
+#tudo #regras p{margin:5px 0 15px 10px;}
+#tudo #regras .pregras5{width:230px;height:45px;line-height:45px;font-size:13px;text-indent:10px;letter-spacing:-1px;margin:0 !important;background:url(http://www.maujor.com/temas/51/bg-txt-col.gif) no-repeat;}
+#tudo #regras .pregras5 strong{color:#fff;margin-right:5px;}
+#tudo #entrada, #tudo  #texto{float:right;margin:30px 0 0;width:575px;background:#F2F1E3;overflow:hidden;}
+#tudo #texto{margin-top:0px;margin-bottom:70px;padding-bottom:100px;background:#F2F1E3 url(http://www.maujor.com/temas/51/bg-box.jpg) bottom right no-repeat;}
+#tudo #entrada p, #tudo  #texto p{margin:5px 15px 15px;}
+#entrada h4.apre,#entrada h4.fina,#texto h4.porq ,#texto h4.estr,#texto h4.pode{height:30px;margin:5px 15px 20px;border-bottom:3px dotted #EAE8CA}
+#entrada h4.apre span,#entrada h4.fina span,#texto h4.porq span,#texto h4.estr span,#texto h4.pode span{display:block;width:100%;height:100%;overflow:hidden;text-indent:-999px;background:url(http://www.maujor.com/temas/51/tit_apresentacao.gif) no-repeat;}
+#entrada h4.apre span{background-position:0 0;}
+#entrada h4.fina span{background-position: 0 -30px;}
+#texto h4.estr span{background-position: 0 -60px;}
+#texto h4.porq span{background-position: 0 -90px;}
+#texto h4.pode span{background-position: 0 -120px;}
+#regras .orie{width:230px;height:45px;line-height:45px;font-size:15px;text-indent:10px;background:url(http://www.maujor.com/temas/51/bg-txt-col.gif) no-repeat}
+#regras .orie span{color:#fff;}
+#regras .orie span:first-line{font-variant:small-caps;font-size:20px;}
+#busca-menu{position:absolute;width:230px; top:1115px; left:10px;padding-bottom:105px;background:#F2F1E3 url(http://www.maujor.com/temas/51/busca-menu.jpg) center bottom no-repeat;}
+#busca{margin:10px 15px;}
+#busca form p{font-weight:bold;margin-bottom:5px;}
+#busca form label{color:red}
+#busca form input{width:120px;padding:6px 0 6px 5px;background:url(http://www.maujor.com/temas/51/bg-input.gif) no-repeat;}
+#busca form input.i-buscar{width:66px;height:29px;margin:5px 0 0 3px;border:0;background:url(http://www.maujor.com/temas/51/bt_buscar.gif);font-weight:bold;color:#fff;}
+#busca form input.i-mapa{height:25px;font-weight:bold;color:#DD1818;text-align:center;border:0;margin-top:10px;font:normal 15px Arial, helvetica, sans-serif;background:none;}
+#menu{border-top:1px dashed #d2b48c;}
+#menu ul{margin:10px 15px;}
+
+
+

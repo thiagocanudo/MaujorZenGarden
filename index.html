@@ -1,0 +1,143 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br">
+<head>
+	<title>CSS para Web Design - Zen Garden do Maujor</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="author" content="Mauricio Samy Silva" />
+	<meta name="keywords" content="tutorial,acessibilidade,css,css menu,estilo,folhas estilo,layout css,layout sites,menu css,paginas web,tutorial css,web design,web standards,webdesign,tableless" />
+	<meta name="description" content=" Tutoriais, macetes, dicas sobre uso das CSS para projetar sites." />	
+	<meta name="robots" content="all" />
+		<!-- FOUC Flash Of Unstyled Content. http://www.bluerobot.com/web/css/fouc.asp -->
+	<script type="text/javascript"></script>
+	<style type="text/css" media="screen">
+	@import "51.css";
+	</style>
+</head>
+<body id="Quaker">
+	<!-- NADA DEVERÁ SER ALTERADO, ACRESCENTADO OU SUPRIMIDO NESTE ARQUIVO, O FOCO E FINALIDADE EH HABILIDADE COM CSS PORTANTO ALTERE SOMENTE A FOLHA DE ESTILOS. 
+	Foram adotadas algumas classes e ID's desnecessarias na marcacao que visam a dar maior flexibilidade na estilizacao -->
+
+<!--Inicio da #tudo que engloba todo o layout da pagina.-->
+<div id="tudo">
+  <!--Inicio do topo do site -->
+  <div id="csswebdesign">
+    <h1><span><abbr title="Cascading Style Sheet">CSS</abbr> para <abbr title="World Wide Web" lang="en">Web</abbr> Design</span></h1>
+    <h2><span>A <abbr lang="en">Web</abbr> do Futuro</span></h2>
+    <h3><span>macetes e dicas por Maur&#237;cio Samy Silva</span></h3>
+  </div>
+  <!-- Fim do topo do site -->
+  <div id="busca-menu">
+    <!-- Inicio da #busca-menu - Busca no Site + Menu -->
+    <!-- Inicio da #busca - Busca no Site -->
+    <div id="busca">
+      <form action="http://search.freefind.com/find.html" method="get">
+        <fieldset>
+        <p> <span>Busca no Site</span> powered by <a href="http://www.freefind.com" title="Um motor de busca gratuito para o seu site">FreeFind</a></p>
+        <input type="hidden" name="lang" value="pt" />
+        <input type="hidden" name="id" value="77719312" />
+        <input type="hidden" name="pid" value="r" />
+        <input type="hidden" name="mode" value="ALL" />
+        <input type="hidden" name="n" value="0" />
+        <label for="i-texto">
+        <input type="text" name="query" size="20" class="i-texto" id="i-texto" value="sua busca" accesskey="1" />
+        </label>
+        <input type="submit" value="Buscar!"  class="i-buscar" accesskey="2" />
+        <input type="submit" name="sitemap" value="Mapa do Site" class="i-mapa" accesskey="3" />
+        </fieldset>
+      </form>
+    </div>
+    <!-- Fim da Busca no Site -->
+    <!-- Inicio da #menu, menu para temas de visitantes  -->
+    <div id="menu">
+			<ul>
+     			<li>
+				<a href="index.php?set=1&amp;pg=8" title="Tema coloris ">coloris</a> by <a href="mailto:apoloni[arroba]netcabo[ponto]pt" title="Contato autor(a) do tema" rel="external nofollow">Margarida Correia</a> 
+				</li>
+				<li>
+				<a href="index.php?set=2&amp;pg=8" title="Tema OrangeZen">OrangeZen</a> by <a href="http://www.flavioimanishi.com/" title="Contato autor(a) do tema" rel="external nofollow">Fl&aacute;vio Imanishi</a>
+				</li>
+				<li>
+				<a href="index.php?set=3&amp;pg=8" title="Tema Quaker">Quaker</a> by <a href="http://www.thiagocanudo.com.br/" title="Contato autor(a) do tema" rel="external nofollow">Thiago L. Campos</a>
+				</li>
+				<li> 
+				<a href="index.php?set=4&amp;pg=8" title="Tema Jasmim">Jasmim</a> by <a href="mailto:zymarcia[arroba]hotmail[ponto]com" title="Contato autor(a) do tema" rel="external nofollow">M&aacute;rcia Cristina Leal</a> 
+				</li>
+				<li> 
+				<a href="index.php?set=5&amp;pg=8" title="Tema yin-yang">yin-yang</a> by <a href="mailto:johnataudi@hotmail.com" title="Contato autor(a) do tema" rel="external nofollow">Johnata Ferreira Santos</a> 
+				</li>
+				<li> 
+				 <a href="index.php?set=6&amp;pg=8" title="Tema FS Simple Theme">FS Simple Theme</a> by <a href="http://www.fabianosantos.net/" title="Contato autor(a) do tema" rel="external nofollow">Fabiano Santos</a> 							                
+				 </li>
+<li><a href="index.php?pg=7"  class="anterior">&laquo; Anterior</a> | <a href="index.php?pg=9"  class="proxima">&#218;ltima &raquo;</a></li>				
+			</ul>  		    </div>
+    <!-- Fim do menu de temas dos visitantes -->
+  </div>
+  <!-- Fim da #busca-menu - Busca no Site + Menu -->
+  <!-- Inicio das orientacoes para os temas dos visitantes" -->
+  <div id="regras">
+    
+       <div id="regras1-3">
+	<h4 class="orie"><span>Orienta&#231;&#245;es gerais</span></h4>
+    <p class="pregras1">Esta p&#225;gina foi desenvolvida para o &#8220;Zen Garden do Maujor&#8221;.</p>
+    <p class="pregras2">Uma proposta desafio neste site, visando a estimular suas pesquisas, estudos, habilidades e interesse pelas <abbr>CSS.</abbr></p>
+	<p class="pregras3">Voc&#234; faz o download do <a href="html-padrao_zengarden-maujor.zip" title="Download do c&#243;digo XHTML">c&#243;digo <abbr title="HyperText Markup Language">HTML</abbr></a> e da <a href="51/51.css" title="Download das CSS"><abbr>CSS</abbr></a> do tema desta p&aacute;gina.</p>
+       </div>
+       <div id="regras4-8">
+	<p class="pregras4">Construa um outro <span lang="en">layout</span> para a p&#225;gina, modificando a vontade o arquivo <abbr>CSS</abbr>. Mas, nada, nada mesmo do c&#243;digo <abbr>HTML</abbr> dever&aacute; ser modificado.</p>
+    <p class="pregras5"><strong>O <abbr>HTML</abbr> DA P&#193;GINA &#201; INTOC&#193;VEL</strong>.</p>
+    <p class="pregras6">O foco exclusivo do site e consequentemente deste desafio s&#227;o as Folhas de Estilo. A finalidade deste trabalho em particular, &#233; a de expor o poder das <abbr>CSS</abbr>, no controle do <span lang="en">layout</span>. Assim, nadinha do <abbr>HTML</abbr> pode ser modificado.</p>
+    <p class="pregras7">Nos temas enviados, o conte&#250;do de todas as p&#225;ginas &eacute; rigorosamente o mesmo, vale dizer n&#227;o se muda o <abbr>HTML</abbr>. O visual &eacute; consequ&ecirc;ncia da mudan&#231;a nas <abbr>CSS</abbr>. <em>Uma <abbr>CSS</abbr> para cada tema</em>.</p>
+    <p class="pregras8">Para participar, voc&ecirc; constr&#243;i um tema, e envia os arquivos zipados (tema.css e imagens) e eu publico. Mostre sua habilidade com <abbr>CSS</abbr> e veja seu trabalho publicado juntamente com um <span lang="en">link</span> para seu <span lang="en">e-mail</span> ou Site/Blog.</p>
+    <p class="pzen"> Este desafio inspira-se no site <a href="http://www.csszengarden.com" title="Visite o Site Zen Garden original">&#8220;Zen-Garden&#8221;</a>.</p>
+       </div>
+  </div>
+  <!-- Fim das orientacoes -->
+  <!-- Inicio da #entrada que engloba os dois primeiros titulos: "Apresentacao"- "Finalidade" -->
+  <div id="entrada">
+    <h4 class="apre"><span>Apresenta&#231;&#227;o</span></h4>
+    <p class="papre">Site do Maujor foi criado em agosto de 2003 por <a href="/contato.php" title="Contato com o Maujor">Maur&#237;cio Samy Silva</a> com utiliza&#231;&#227;o de <abbr>CSS</abbr> - <span lang="en">Cascading Style Sheet para controlar a apresenta&ccedil;&atilde;o.</span></p>
+    <h4 class="fina"><span>Finalidade</span></h4>
+    <p class="pfina1"> Minha motiva&#231;&#227;o maior ao projetar o site foi a de compartilhar com meus visitantes o resultado dos meus estudos e pesquisas sobre o assunto, proveniente quer de material extraido da pr&#243;pria Internet, quer de livros e literatura pertinentes, a maioria em l&#237;ngua inglesa. </p>
+    <p class="pfina2"> Sou auto-ditada no assunto e continuo em fase de pesquisas e estudos. Assim sendo, tenho tamb&#233;m a pretens&#227;o de atrav&#233;s do site, abrir um canal de comunica&#231;&#227;o para troca de experi&#234;ncias e informa&#231;&#245;es sobre o assunto, visto que a literatura dispon&#237;vel em l&#237;ngua portuguesa &#233; bastante ex&#237;gua e restrita. As t&#233;cnicas de constru&#231;&#227;o de p&#225;ginas <abbr lang="en">Web</abbr> com a utiliza&#231;&#227;o das <abbr>CSS</abbr> - <span lang="en">Cascading Style Sheet.</span> obrigatoriamente ter&#227;o que ser dominadas por tantos quanto queriam projetar a "<abbr lang="en">Web</abbr> do Futuro". </p>
+  </div>
+  <!-- Fim da #entrada -->
+  <!-- Inicio da #texto que engloba tres titulos: "Estrutura do site"- "Por que CSS" - "O poder das CSS" -->
+  <div id="texto">
+    <h4 class="estr"><span>Estrutura do site</span></h4>
+    <p class="pestr1"> O site n&#227;o usa Tabelas para definir seu <span lang="en">layout</span>. </p>
+    <p class="pestr2"> As t&#233;cnicas <abbr>CSS</abbr> preconizam a utiliza&#231;&#227;o de tabelas somente para apresenta&#231;&#227;o de dados tabulares. Assim, usar tabelas para montar <span lang="en">layout</span>, quer seja para compartimentar uma p&#225;gina em colunas e linhas, quer para posicionar elementos &#233; uma pr&#225;tica que dever&#225; ser abandonada pelo desenvolvedor <abbr lang="en">Web</abbr> moderno.</p>
+    <h4 class="porq"><span>Por que <abbr>CSS</abbr></span></h4>
+    <p class="ppqc1"> A grande vantagem do uso de <abbr>CSS</abbr> &#233; a de separar a marca&#231;&#227;o <abbr>HTML</abbr>, da apresenta&#231;&#227;o do design final. Em outras palavras vale dizer que <abbr>HTML</abbr> destina-se unicamente a estruturar o conte&#250;do ficando por conta das <abbr>CSS</abbr> toda a responsabilidade pela apresenta&#231;&#227;o &#8220;visual&#8221;.</p>
+    <p class="ppqc2"> Assim, <abbr>HTML</abbr> marca textos, cabe&#231;alhos, par&#225;grafos, links, bot&#245;es, forms, imagens, etc e <abbr>CSS</abbr> define cores, posicionamento na tela, estilos de linhas, bordas e toda a parte visual.</p>
+    <p class="ppqc3"> A combina&#231;&#227;o acima resulta em m&#250;ltiplas vantagens e benef&#237;cios que n&#227;o s&#227;o conseguidos quando se utiliza o conceito baseado no uso de tabelas, hoje largamente empregado, para constru&#231;&#227;o de <abbr title="World Wide Web" lang="en">Web</abbr> sites.</p>
+    <p class="ppqc4"> Imagine você projetar um site inteiro com uma marca&#231;&#227;o <abbr>HTML</abbr> &#250;nica que seja naveg&#225;vel tanto em monitor de 1280x1024 quanto em uma telinha de 320x240 de um <abbr title="Personal Digital Assistant">PDA</abbr>. &#201; fant&#225;stico e poss&#237;vel. Basta entregar &#224;s <abbr>CSS</abbr> a miss&#227;o de acomodar o conte&#250;do na tela </p>
+    <p class="ppqc5"> Algumas restri&#231;&#245;es ainda freiam o uso pleno geral e irrestrito de <abbr>CSS</abbr> na <abbr title="World Wide Web" lang="en">Web</abbr>. As restri&#231;&#245;es s&#227;o por conta da incapacidade dos browsers mais antigos dar suporte pleno &#224; <abbr>CSS</abbr>. Com o passar do tempo a tend&#234;ncia &#233; a de cair em desuso total os browsers antigos que n&#227;o suportam ou mesmo suportam parcialmente <abbr>CSS</abbr>. Soma-se a favor da <abbr>CSS</abbr> a normatiza&#231;&#227;o que o <abbr title="World Wide Web Consortium">W3C</abbr> vem implementando sobre o assunto e o desejo dos fabricantes de se adequar &#224;quelas normas. &#233; uma quest&#227;o de tempo&#33;</p>
+    <h4 class="pode"><span>O poder das <abbr>CSS</abbr></span></h4>
+    <p class="ppcss1"> Para ter uma id&eacute;ia do poder das <abbr>CSS</abbr> no controle do <span lang="en">layout</span> recomendo visitar o <a href="http://www.csszengarden.com" title="Visite o Site Zen Garden original">&quot;Zen-Garden&quot;.</a> Trata-se de uma se&#231;&#227;o de um site, dedicada as <abbr>CSS</abbr> e onde especialistas do mundo todo exp&otilde;em sua criatividade com as Folhas de Estilos e foi de l&#225; que veio a inspira&#231;&#227;o para este desafio. </p>
+    <p class="ppcss2"> Visite o site e navegue por alguns trabalhos em exposi&#231;&#227;o. Garanto que voc&#234; vai se surpreender.</p>
+  </div>
+  <!-- Fim da #texto -->
+  <!-- Inicio da #navMenu menu de links para paginas do site -->
+  <div id="navMenu">
+    <ul>
+      <li> <a href="/" title="Home Page do Site do Maujor">Home</a> </li>
+      <li> <a href="/tutorial/intrtut.php" title="&#193;rea de tutoriais CSS">Tutorial <abbr>CSS</abbr></a> </li>
+      <li> <a href="/layout3col.shtml" title="T&#233;cnicas de layout com CSS">Layout<abbr>CSS</abbr></a> </li>
+      <li> <a href="/tutorialcss1/css1tut.shtml" title="Normas do W3C Consortium para CSS-1">W3C <abbr>CSS-1</abbr></a> </li>
+    </ul>
+  </div>
+  <!-- As DIVs a seguir podem ser usadas para inserir imagens adicionais -->
+  <div id="extra1"><span></span></div>
+  <div id="extra2"><span></span></div>
+  <div id="extra3"><span></span></div>
+  <div id="extra4"><span></span></div>
+</div>
+<!--Fim da #tudo que engloba toda a pagina -->
+<!-- As DIVs a seguir podem ser usadas para inserir imagens adicionais -->
+<div id="extra5"><span></span></div>
+<div id="extra6"><span></span></div>
+<div id="extra7"><span></span></div>
+<div id="extra8"><span></span></div>
+</body>
+</html>
